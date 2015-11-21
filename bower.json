@@ -1,0 +1,21 @@
+{
+  "name": "cyclotron",
+  "homepage": "https://github.com/Qnzvna/cyclotron",
+  "authors": [
+    "Damian Serwin <damian.abel.serwin@gmail.com>"
+  ],
+  "description": "simple jQuery plugin for displayin panoramas on website",
+  "main": "jquery.cyclotron.js",
+  "moduleType": [],
+  "keywords": [
+    "panorama"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

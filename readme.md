@@ -1,20 +1,27 @@
-# jquery.cyclotron.js ([Demo](http://kaioa.com/k/test/cyclotron/index.html))
+# Cyclotron
+Inspired by [here](https://github.com/mahonnaise/cyclotron)
 
-## 1. You need some element with a background image. E.g.:
+## 1. You need some element, div will be the best option. E.g.:
 
 ```html
-<div class="cycle" style="background:url(panorama.jpg);height:512px"></div>
+<div class="cyclotron" style="height:512px"></div>
 ```
 
 ## 2. Cyclotronify:
 
 ```javascript
 $(document).ready(function ($) {
-	$('.cycle').cyclotron();
+	$('.cycle').cyclotron(moveable, autoscroll, dunpingFactor, historySize);
 });
 ```
 
 ## 3. Options:
+
+`moveable` - boolean value; if true user can drag panorama (default: true)
+
+`autoscroll` - boolean value; if true panorama is moving automatically (default: true)
+
+`speed` - integer value; speed of autoscrolling (default: 10)
 
 `dampingFactor` - should be somewhere around 0.9, should be > 0 and < 1 (default: 0.93)
 
