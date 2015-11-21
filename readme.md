@@ -1,10 +1,10 @@
 # Cyclotron
 Inspired by [here](https://github.com/mahonnaise/cyclotron)
 
-## 1. You need some element, div will be the best option. E.g.:
+## 1. You need some element with background, div will be the best option. E.g.:
 
 ```html
-<div class="cyclotron" style="height:512px"></div>
+<div class="cyclotron" style="background-image('panorama.jpg');height:512px"></div>
 ```
 
 ## 2. Cyclotronify:
